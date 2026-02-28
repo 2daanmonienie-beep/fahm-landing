@@ -30,7 +30,14 @@ export function Navbar() {
             href="#"
             className="inline-flex items-center rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-all hover:bg-accent"
           >
-            {"Accéder à l'application"}
+            <a
+  href="https://fahm-ai-project-brie-vwjb.bolt.host"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-blue-600 px-5 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition"
+>
+  Accéder à l'application
+</a>
           </a>
         </div>
 
